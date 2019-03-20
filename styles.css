@@ -1,0 +1,21 @@
+body {
+    font-family: "Bree Serif", sans-serif;
+}
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #bbffff;
+    border-radius: 20px;
+    background-color: white;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+.container:hover {
+    background-color: #eeffff;
+    border-color: #eeffff;
+}
